@@ -1,0 +1,9 @@
+.controlPanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controlPanel-input {
+    padding: 10px 30px;
+}

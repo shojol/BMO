@@ -1,0 +1,79 @@
+.dropdown {
+    position: relative;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 1px;
+    max-width: 300px; 
+}
+
+.dropdown__toggle {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    list-style: none;
+    padding: 15px;
+    padding: .375rem .75rem;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+    
+.dropdown__arrow {
+    position: absolute;    
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #eee;
+    border-radius: 3px;
+}
+    
+.dropdown__list {
+    opacity: 0;
+    transition: max-height .6s ease-out;
+    transition: opacity .15s ease-out;
+    max-height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0; 
+}
+      
+.dropdown__list--active {
+    max-height: 1000px;
+    opacity: 1;
+}
+    
+    
+.dropdown__list-item {
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    list-style: none;    
+    padding: 15px; 
+}
+      
+.dropdown__list--active {
+    background: #f4f4f4;
+    position: absolute;
+    width: 100%;
+}
+      
+.dropdown__list--active:hover {
+    background: #f4f4f4;
+}
+    
+.dropdown__list__toggle:hover { 
+    background: #fff;
+}
+
+.dropdown__list__toggle:hover { 
+    background: #fff;
+}
